@@ -6,7 +6,9 @@ def elSegundo(s,lista):
   while(indice<=cantidad):
     nuevaFrase[2*indice]=frase[2*indice+1]
     indice=indice+1
-  str(frase)
+  print(nuevaFrase)
 
-elSegundo('hola',[1,2])
+listas=[4,0,5,8,11,4]
+print("zasca")
+elSegundo('tienes dos horas',listas)
 
